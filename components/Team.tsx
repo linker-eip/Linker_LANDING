@@ -5,7 +5,7 @@ const Team = (): JSX.Element => {
   return (
     <div className="bg-white" id="team">
       <div className="container mx-auto flex flex-col items-center py-8 px-4">
-        <h1 className="text-3xl text-center text-blue-200 font-bold mb-24">L'ÉQUIPE</h1>
+        <h1 className="text-3xl text-center text-blue-200 font-bold mb-24">L&apos;ÉQUIPE</h1>
         <div data-aos="fade-up" className="flex flex-wrap justify-center md:justify-around items-center md:space-x-20 gap-y-8 mb-24">
           <div className="flex flex-col items-center space-y-4 md:space-y-4">
             <Image className="rounded-full" src="/jeremy.jpeg" alt="Linker" width={150} height={150} />
@@ -88,7 +88,7 @@ const Team = (): JSX.Element => {
         </div>
         <div className="container mx-auto flex flex-col items-center py-8 px-4 gap-4" id="contact">
           <h1 className="text-3xl text-center text-blue-200 font-bold mb-4">NOUS CONTACTER</h1>
-          <p className="text-center text-lg mb-4">Pour plus d'informations, suivez-nous sur nos réseaux sociaux ou contactez-nous directement.</p>
+          <p className="text-center text-lg mb-4">Pour plus d&apos;informations, suivez-nous sur nos réseaux sociaux ou contactez-nous directement.</p>
           <div className="flex space-x-8">
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={30} />

@@ -50,7 +50,7 @@ const Header = (): JSX.Element => {
           </li>
           <li>
             <a className="text-white hover:text-blue-200" href="#" onClick={() => { scrollToSection('team') }}>
-              L'ÉQUIPE
+              L&apos;ÉQUIPE
             </a>
           </li>
           <li>

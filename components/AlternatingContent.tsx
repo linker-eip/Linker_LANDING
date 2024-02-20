@@ -16,7 +16,7 @@ const AlternatingContent = (): JSX.Element => {
       text: (
         <>
           <h1 className="text-xl text-center md:text-start md:text-3xl text-white font-bold mb-4">Créez des missions en quelques clics</h1>
-          <p className='text-white text-center md:text-start opacity-80 text-sm md:text-xl'>Linker vous permet de créer des missions de manière très simple. La mise en relation entre étudiants et entreprise n'a jamais été aussi facile.</p>
+          <p className='text-white text-center md:text-start opacity-80 text-sm md:text-xl'>Linker vous permet de créer des missions de manière très simple. La mise en relation entre étudiants et entreprise n&apos;a jamais été aussi facile.</p>
           <div data-aos="fade-left" className='text-center md:text-start mt-5 bg-blue-200 p-2 md:p-4 border-blue-300 border-t-8 md:border-t-0 md:border-l-8 rounded-md text-white text-sm md:text-lg font-semibold'>
             En quelques clics, trouvez des étudiants pour vos missions ponctuelles ou récurrentes.
           </div>
@@ -43,10 +43,10 @@ const AlternatingContent = (): JSX.Element => {
       imageUrl: '/groupes.png',
       text: (
         <>
-          <h1 className="text-xl text-center md:text-start md:text-3xl text-white font-bold mb-4">Créez votre groupe d'étudiants</h1>
-          <p className='text-white text-center md:text-start opacity-80 text-sm md:text-xl'>Créez votre groupe d'étudiants pour vos missions. Gérez votre groupe en toute simplicité.</p>
+          <h1 className="text-xl text-center md:text-start md:text-3xl text-white font-bold mb-4">Créez votre groupe d&apos;étudiants</h1>
+          <p className='text-white text-center md:text-start opacity-80 text-sm md:text-xl'>Créez votre groupe d&apos;étudiants pour vos missions. Gérez votre groupe en toute simplicité.</p>
           <div data-aos="fade-left" className='text-center md:text-start mb-5 md:mb-0 mt-5 bg-blue-200 p-2 md:p-4 border-blue-300 border-t-8 md:border-t-0 md:border-l-8 rounded-md text-white text-sm md:text-lg font-semibold'>
-            Créez votre groupe d'étudiants pour vos missions et gérez-les en toute simplicité.
+            Créez votre groupe d&apos;étudiants pour vos missions et gérez-les en toute simplicité.
           </div>
         </>
       ),
