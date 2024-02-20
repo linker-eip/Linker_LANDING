@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter, FaEnvelope } from 'react-icons/fa6';
 
 const Team = (): JSX.Element => {
   return (
@@ -90,6 +90,9 @@ const Team = (): JSX.Element => {
           <h1 className="text-3xl text-center text-blue-200 font-bold mb-4">NOUS CONTACTER</h1>
           <p className="text-center text-lg mb-4">Pour plus d&apos;informations, suivez-nous sur nos réseaux sociaux ou contactez-nous directement.</p>
           <div className="flex space-x-8">
+            <a href="mailto:linker_2025@labeip.epitech.eu" target="_blank" rel="noopener noreferrer">
+              <FaEnvelope size={30} />
+            </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
               <FaLinkedin size={30} />
             </a>
