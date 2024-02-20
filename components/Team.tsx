@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter, FaEnvelope, FaGoogle, FaApple } from 'react-icons/fa6';
+import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter, FaEnvelope, FaAndroid, FaApple } from 'react-icons/fa6';
 
 const Team = (): JSX.Element => {
   return (
@@ -110,7 +110,7 @@ const Team = (): JSX.Element => {
               <FaApple size={30} />
             </a>
             <a href="https://play.google.com/store/apps?hl=fr&gl=US" target="_blank" rel="noopener noreferrer">
-              <FaGoogle size={30} />
+              <FaAndroid size={30} />
             </a>
           </div>
         </div>
