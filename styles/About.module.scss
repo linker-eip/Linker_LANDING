@@ -1,0 +1,109 @@
+/* About.module.css */
+
+.switchContainer {
+  position: relative;
+  display: inline-block;
+  border-radius: 140px;
+  background: #f1f1f1;
+   border: 1px solid #ddd;
+  font-size: 0; /* Removes whitespace between inline-block elements */
+}
+
+.tab {
+  display: inline-block;
+  font-size: 24px; /* Reset font size */
+  padding: 10px 40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  transition: background-color 0.3s;
+  position: relative; /* Ensure z-index is respected */
+  z-index: 2; /* Above the absolute background */
+  color: #212529; /* Default text color */
+  text-align: center; /* Center the text inside the button */
+  font-weight: bold; /* Make the text bold */
+}
+
+.tab .smallText {
+  display: block; /* Make the small text block so it sits on its own line */
+  font-size: 18px; /* Adjust the size as needed */
+  font-weight: 300; /* Reset the font weight */
+}
+
+.active {
+  /* Add styles for the active class to make the text white */
+  color: white !important; /* Override text color for active tab */
+  font-weight: bold; /* Make the text bold */
+}
+
+.videoFrame {
+  min-width: 100%;
+  max-width: 700px;
+  border-radius: 20px; /* Exemple d'arrondissement des bords */
+}
+
+.activeBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #003751;
+  border-radius: 140px;
+  transition: width 0.3s, left 0.3s;
+  z-index: 1; /* Below the buttons */
+}
+
+/* Adjust these widths based on the actual size of your buttons */
+.mobileActive {
+  width: 50%; /* Half width for mobile */
+}
+
+.webActive {
+  width: 50%; /* Half width for web, adjust if necessary */
+  left: 50%; /* Move to the right side */
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) { /* Pour les tablettes et les appareils plus petits */
+  .tab {
+    padding: 5px 25px; /* Réduire le padding */
+    font-size: 16px; /* Réduire la taille de la police */
+  }
+
+  .tab .smallText {
+    font-size: 14px; /* Réduire la taille de la police du texte plus petit */
+  }
+
+  .switchContainer {
+    border-radius: 70px; /* Ajuster le rayon de la bordure pour les petits écrans */
+  }
+
+  .videoFrame {
+    width: 100%; /* Faire en sorte que l'iframe prenne toute la largeur */
+    height: auto; /* Ajuster la hauteur automatiquement */
+    max-width: 700px; /* Limite max pour la largeur */
+  }
+  
+  /* Ajustements pour réduire l'espace autour des vidéos et autres contenus */
+  .container {
+    padding: 4px; /* Réduire le padding */
+  }
+}
+
+@media (max-width: 480px) { /* Pour les téléphones mobiles */
+  .tab {
+    font-size: 13px; /* Encore plus petit */
+    padding: 5px 20px; /* Réduire davantage le padding */
+  }
+
+  .tab .smallText {
+    font-size: 10px; /* Taille de police plus petite pour le petit texte */
+  }
+  
+  /* Plus de réductions pour les très petits écrans */
+  .switchContainer {
+    border-radius: 50px; /* Ajustement du rayon de la bordure pour les très petits écrans */
+  }
+}

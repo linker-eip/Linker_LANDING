@@ -1,0 +1,24 @@
+.shapeDivider {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  background-color: #003751;
+}
+
+.shapeDivider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.shapeDivider .shapeFill {
+  fill: #FFFFFF;
+}
+
+@media (max-width: 768px) { 
+  .shapeDivider svg {
+    width: calc(300% + 1.3px);
+    height: 150px;
+  }
+}
