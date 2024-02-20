@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter, FaEnvelope } from 'react-icons/fa6';
+import { FaLinkedin, FaGithub, FaInstagram, FaXTwitter, FaEnvelope, FaGoogle, FaApple } from 'react-icons/fa6';
 
 const Team = (): JSX.Element => {
   return (
@@ -101,6 +101,16 @@ const Team = (): JSX.Element => {
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
               <FaXTwitter size={30} />
+            </a>
+          </div>
+          {/* display apple and google icons */}
+          <p className="text-center mt-8 text-lg mb-4">Téléchargez notre application.</p>
+          <div className="flex space-x-8">
+            <a href="https://www.apple.com/fr/app-store/" target="_blank" rel="noopener noreferrer">
+              <FaApple size={30} />
+            </a>
+            <a href="https://play.google.com/store/apps?hl=fr&gl=US" target="_blank" rel="noopener noreferrer">
+              <FaGoogle size={30} />
             </a>
           </div>
         </div>
