@@ -14,7 +14,7 @@ const MainContent = (): JSX.Element => {
             </p>
             <button className="bg-blue-200 text-white font-bold py-2 px-4 ml-3 w-64 rounded-full">
               <Link href="/linker.apk">
-                Télécharger l'app mobile
+                Télécharger l&apos;app mobile
               </Link>
             </button>
           </div>
