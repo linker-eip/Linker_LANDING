@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const MainContent = (): JSX.Element => {
   return (
@@ -11,8 +12,10 @@ const MainContent = (): JSX.Element => {
               Renforçons le <span className="text-blue-200">lien</span> entre <br />
               les <span className="text-blue-200">entreprises</span> et les <span className="text-blue-200">étudiants</span>.
             </p>
-            <button className="bg-blue-200 text-white font-bold py-2 px-4 ml-3 w-48 rounded-full">
-              En savoir plus
+            <button className="bg-blue-200 text-white font-bold py-2 px-4 ml-3 w-64 rounded-full">
+              <Link href="/linker.apk">
+                Télécharger l'app mobile
+              </Link>
             </button>
           </div>
         </div>
